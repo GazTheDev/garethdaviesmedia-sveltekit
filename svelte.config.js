@@ -36,8 +36,7 @@ const getAdapters = (adapt) => {
 			return nodeAdapter;
 		case 'static':
 			return staticAdapter;
-		case 'netlify':
-			return netlifyAdapter;
+		;
 		case 'vercel':
 			return vercelAdapter;
 		default:
