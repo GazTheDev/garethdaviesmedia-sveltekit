@@ -18,8 +18,8 @@ import { fileURLToPath } from 'url';
 // Adapters
 import staticAdapter from '@sveltejs/adapter-static';
 import nodeAdapter from '@sveltejs/adapter-node';
-import netlifyAdapter from '@sveltejs/adapter-netlify';
-import vercel from '@sveltejs/adapter-vercel';
+import adapter from '@sveltejs/adapter-netlify';
+import vercelAdapter from '@sveltejs/adapter-vercel';
 
 // Custom require function as replacement for the require from the commonJS in ES Module
 // const customRequire = createRequire(import.meta.url); // jshint ignore:line
@@ -62,7 +62,7 @@ const config = {
 	],
 
 	kit: {
-		adapter: vercel(),
+		adapter: adapter(),
 
 		// hydrate the <div id="svelte"> element in src/app.html
 		target: '#sveltekit-blog',

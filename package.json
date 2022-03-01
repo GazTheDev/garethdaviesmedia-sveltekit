@@ -114,7 +114,7 @@
 		"@storybook/addon-svelte-csf": "^1.1.0",
 		"@storybook/preset-scss": "^1.0.3",
 		"@storybook/svelte": "^6.3.8",
-		"@sveltejs/adapter-netlify": "^1.0.0-next.30",
+		"@sveltejs/adapter-netlify": "^1.0.0-next.49",
 		"@sveltejs/adapter-node": "^1.0.0-next.43",
 		"@sveltejs/adapter-static": "^1.0.0-next.18",
 		"@sveltejs/adapter-vercel": "^1.0.0-next.45",
