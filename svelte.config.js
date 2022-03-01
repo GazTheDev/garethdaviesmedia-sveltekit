@@ -19,7 +19,7 @@ import { fileURLToPath } from 'url';
 import staticAdapter from '@sveltejs/adapter-static';
 import nodeAdapter from '@sveltejs/adapter-node';
 import netlifyAdapter from '@sveltejs/adapter-netlify';
-import vercelAdapter from '@sveltejs/adapter-vercel';
+import vercel from '@sveltejs/adapter-vercel';
 
 // Custom require function as replacement for the require from the commonJS in ES Module
 // const customRequire = createRequire(import.meta.url); // jshint ignore:line
